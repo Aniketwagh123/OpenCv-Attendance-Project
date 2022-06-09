@@ -24,14 +24,16 @@
             tools:ignore="ContentDescription" />
 
         <ImageView
+            android:id="@+id/plus_login"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:background="#f1e9ce"
+            android:contentDescription="@string/todo"
+            android:onClick="user"
             android:padding="5dp"
             android:src="@drawable/ic_baseline_add_24"
-            android:contentDescription="@string/todo"
             tools:ignore="ContentDescription" />
 
     </RelativeLayout>

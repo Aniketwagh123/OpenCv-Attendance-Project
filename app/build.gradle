@@ -57,6 +57,7 @@ dependencies {
 //    Dependency for LottieFiles
     implementation "com.airbnb.android:lottie:3.4.1"
 
+    implementation "com.google.android.material:material:1.6.1"
 
 //    // Dependency for Google Sign-In
 //    implementation 'com.google.android.gms:play-services-auth:17.0.0'

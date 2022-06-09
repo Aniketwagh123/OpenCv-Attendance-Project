@@ -14,5 +14,16 @@
 
     <string name="skip_btn">Skip</string>
     <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_naccount">Create\nAccount</string>
+    <string name="name">Name</string>
+    <string name="branch">Branch</string>
+    <string name="division">Division</string>
+    <string name="roll_no">Roll No</string>
+    <string name="email_id">Email ID</string>
 
 </resources>

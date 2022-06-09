@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplicationNew" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.MyApplicationNew" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/yello1</item>
         <item name="colorPrimaryVariant">@color/yello1</item>
