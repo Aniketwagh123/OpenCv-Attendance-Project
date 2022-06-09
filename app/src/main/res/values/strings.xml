@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application new</string>
+    <string name="logo_name">Attendance Application</string>
+    <string name="Slogan">We will hwlp you to find your Attendance!</string>
+    <string name="lets_get_started">LETS GET STARTED</string>
+    <string name="slider1decs">It is a long established fact that a reader will be distracted by the readable content.</string>
+    <string name="slider2decs">Lorem ipsum dolor sit amet. Aut reiciendis ipsum non corrupti quas aut eligendi omnis est quia voluptatem.</string>
+    <string name="slider3decs">Sed veritatis consequatur in quia incidunt ea iusto provident.</string>
+    <string name="slider4decs">Est modi ut aliquid rerum qui veritatis commodi non alias sequi id architecto rerum!</string>
+    <string name="title1">First Title .</string>
+    <string name="title2">Second Title .</string>
+    <string name="title3">Third Title .</string>
+    <string name="title4">Fourth Title .</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="todo">TODO</string>
+
+</resources>
