@@ -13,7 +13,6 @@
     <string name="title4">Fourth Title .</string>
 
     <string name="skip_btn">Skip</string>
-    <string name="todo">TODO</string>
     <string name="login">Login</string>
     <string name="username">Enter Username</string>
     <string name="password">Enter Password</string>
@@ -25,5 +24,14 @@
     <string name="division">Division</string>
     <string name="roll_no">Roll No</string>
     <string name="email_id">Email ID</string>
+    <string name="attendance">attendance</string>
+    <string name="dldm">DLMP</string>
+    <string name="seminar">SEMINAR II</string>
+    <string name="ptrp">PTRP</string>
+    <string name="bhr">BHR</string>
+    <string name="coa">COA</string>
+    <string name="os">OS</string>
+    <string name="todo">TODO</string>
+    <string name="remember_me">Remember me</string>
 
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="30dp"
+    android:layout_margin="20dp"
     android:background="@color/yello1"
     tools:context=".LoginSignup.Login">
 
@@ -41,6 +41,7 @@
             android:layout_marginTop="80dp">
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/checkName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -63,6 +64,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/checkPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -113,7 +115,8 @@
                 android:text="@string/login"
                 android:background="@color/black"
                 android:textColor="@color/white"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:onClick="Login_click"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -122,6 +125,7 @@
                 android:layout_marginTop="20dp"
                 android:background="#00000000"
                 android:onClick="CreateAccountBtn"
+                android:layout_marginBottom="20dp"
                 android:layout_gravity="center"
                 tools:ignore="OnClick" />
 
