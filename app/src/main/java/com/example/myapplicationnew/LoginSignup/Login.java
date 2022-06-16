@@ -27,6 +27,9 @@ import io.realm.mongodb.mongo.MongoDatabase;
 import com.example.myapplicationnew.LoginSignup.SignUp;
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 public class Login extends AppCompatActivity {
@@ -34,7 +37,6 @@ public class Login extends AppCompatActivity {
     String Appid = "application-0-ovhjc";
     MongoDatabase mongoDatabase;
     MongoClient mongoClient;
-    SignUp signUp ;
 
     TextInputLayout checkName,checkPassword;
 
@@ -45,7 +47,6 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         Log.v("test3", "function called");
-        signUp = new SignUp();
         Realm.init(this);
         App app = new App(new AppConfiguration.Builder(Appid).build());
 
@@ -60,29 +61,33 @@ public class Login extends AppCompatActivity {
                     mongoClient = user.getMongoClient("mongodb-atlas");
                     mongoDatabase = mongoClient.getDatabase("test-database");
                     MongoCollection<Document> mongoCollection = mongoDatabase.getCollection("collections");
-                    Document newDoc = new Document("name", SignUp.name_val);
-                    newDoc.put("branch", SignUp.branch_val);
-                    newDoc.put("div", SignUp.div_val);
-                    newDoc.put("roll_no", SignUp.roll_no_val);
-                    newDoc.put("email", SignUp.email_val);
-                    newDoc.put("password", SignUp.password_val);
-//                    int[][] sub = new int[6][2];
-//                    for(int i = 0 ;i<6 ;i++){
-//                        for(int j = 0 ;j<2 ;j++){
-//                            sub[i][j]=0;
-//                        }
-//                    }
-//                    newDoc.put("sub", sub);
-//                    Log.v("test4", SignUp.name_val +" "+ SignUp.roll_no_val +" "+ SignUp.email_val +" ");
 
-                    mongoCollection.insertOne(newDoc).getAsync(task -> {
-                        if (task.isSuccess()) {
-                            BsonObjectId insertedId = task.get().getInsertedId().asObjectId();
-                            Log.v("EXAMPLE", "successfully inserted a document with id " + insertedId);
-                        } else {
-                            Log.e("EXAMPLE", "failed to insert document with: ", task.getError());
-                        }
-                    });
+                    if(SignUp.name_val!=null) {
+                        Document newDoc = new Document("name", SignUp.name_val);
+                        newDoc.put("branch", SignUp.branch_val);
+                        newDoc.put("div", SignUp.div_val);
+                        newDoc.put("roll_no", SignUp.roll_no_val);
+                        newDoc.put("email", SignUp.email_val);
+                        newDoc.put("password", SignUp.password_val);
+                        List<String> lists=new ArrayList<String>();
+                        lists.add("0,0");
+                        lists.add("0,0");
+                        lists.add("0,0");
+                        lists.add("0,0");
+                        lists.add("0,0");
+                        lists.add("0,0");
+                        newDoc.put("sub", lists);
+//                        Log.v("test4", SignUp.name_val +" "+ SignUp.roll_no_val +" "+ SignUp.email_val +" ");
+
+                        mongoCollection.insertOne(newDoc).getAsync(task -> {
+                            if (task.isSuccess()) {
+                                BsonObjectId insertedId = task.get().getInsertedId().asObjectId();
+                                Log.v("EXAMPLE", "successfully inserted a document with id " + insertedId);
+                            } else {
+                                Log.e("EXAMPLE", "failed to insert document with: ", task.getError());
+                            }
+                        });
+                    }
                 }
             }
             else {
@@ -119,20 +124,22 @@ public class Login extends AppCompatActivity {
                     toast.show();
                 }
                 else{
-                    isLodgedIn = getSharedPreferences("isLodgedIn", Context.MODE_PRIVATE);
+                    isLodgedIn = getSharedPreferences("act", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = isLodgedIn.edit();
-                    editor.putString("str","yes");
+                    editor.putString("isLodgedIn","yes");
                     editor.apply();
 
-                    checkNameSrd = getSharedPreferences("isLodgedIn", Context.MODE_PRIVATE);
+                    checkNameSrd = getSharedPreferences("srd1", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editName = checkNameSrd.edit();
-                    editor.putString("Name",checkName_val);
+                    editName.putString("Name",checkName_val);
                     editName.apply();
 
-                    checkPasswordSrd = getSharedPreferences("isLodgedIn", Context.MODE_PRIVATE);
+                    checkPasswordSrd = getSharedPreferences("srd2", Context.MODE_PRIVATE);
                     SharedPreferences.Editor editPassword = checkPasswordSrd.edit();
-                    editor.putString("Name",checkPassword_val);
+                    editPassword.putString("Password",checkPassword_val);
                     editPassword.apply();
+
+//                    Log.v("list",checkName_val+" "+checkPassword_val);
 
                     startActivity(new Intent(getApplicationContext(), UserDashboard.class));
                     Toast toast = Toast.makeText(getApplicationContext(),

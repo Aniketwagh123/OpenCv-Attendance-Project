@@ -47,12 +47,12 @@ public class DbsDoc extends AppCompatActivity {
                     mongoClient = user.getMongoClient("mongodb-atlas");
                     mongoDatabase = mongoClient.getDatabase("test-database");
                     MongoCollection<Document> mongoCollection = mongoDatabase.getCollection("collections");
-                    Document newDoc = new Document("name", signUp.name_val);
-                    newDoc.put("branch", signUp.branch_val);
-                    newDoc.put("div", signUp.div_val);
-                    newDoc.put("roll_no", signUp.roll_no_val);
-                    newDoc.put("email", signUp.email_val);
-                    newDoc.put("password", signUp.password_val);
+                    Document newDoc = new Document("name", SignUp.name_val);
+                    newDoc.put("branch", SignUp.branch_val);
+                    newDoc.put("div", SignUp.div_val);
+                    newDoc.put("roll_no", SignUp.roll_no_val);
+                    newDoc.put("email", SignUp.email_val);
+                    newDoc.put("password", SignUp.password_val);
                     mongoCollection.insertOne(newDoc).getAsync(task -> {
                         if (task.isSuccess()) {
                             BsonObjectId insertedId = task.get().getInsertedId().asObjectId();

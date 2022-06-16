@@ -33,5 +33,6 @@
     <string name="os">OS</string>
     <string name="todo">TODO</string>
     <string name="remember_me">Remember me</string>
+    <string name="sign_in_to_see_attendance">Sign in to see attendance</string>
 
 </resources>
