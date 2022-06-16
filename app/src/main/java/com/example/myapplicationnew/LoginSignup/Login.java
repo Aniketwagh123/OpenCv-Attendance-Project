@@ -63,30 +63,51 @@ public class Login extends AppCompatActivity {
                     MongoCollection<Document> mongoCollection = mongoDatabase.getCollection("collections");
 
                     if(SignUp.name_val!=null) {
-                        Document newDoc = new Document("name", SignUp.name_val);
-                        newDoc.put("branch", SignUp.branch_val);
-                        newDoc.put("div", SignUp.div_val);
-                        newDoc.put("roll_no", SignUp.roll_no_val);
-                        newDoc.put("email", SignUp.email_val);
-                        newDoc.put("password", SignUp.password_val);
-                        List<String> lists=new ArrayList<String>();
-                        lists.add("0,0");
-                        lists.add("0,0");
-                        lists.add("0,0");
-                        lists.add("0,0");
-                        lists.add("0,0");
-                        lists.add("0,0");
-                        newDoc.put("sub", lists);
+
+                        Document queryFilter5  = new Document("name",SignUp.name_val );
+                        mongoCollection.findOne(queryFilter5).getAsync(task -> {
+                            if (task.isSuccess()) {
+                                Document result5 = task.get();
+
+                                if(result5==null){
+                                    Document newDoc = new Document("name", SignUp.name_val);
+                                    newDoc.put("branch", SignUp.branch_val);
+                                    newDoc.put("div", SignUp.div_val);
+                                    newDoc.put("roll_no", SignUp.roll_no_val);
+                                    newDoc.put("email", SignUp.email_val);
+                                    newDoc.put("password", SignUp.password_val);
+                                    List<String> lists=new ArrayList<String>();
+                                    lists.add("0,0");
+                                    lists.add("0,0");
+                                    lists.add("0,0");
+                                    lists.add("0,0");
+                                    lists.add("0,0");
+                                    lists.add("0,0");
+                                    newDoc.put("sub", lists);
 //                        Log.v("test4", SignUp.name_val +" "+ SignUp.roll_no_val +" "+ SignUp.email_val +" ");
 
-                        mongoCollection.insertOne(newDoc).getAsync(task -> {
-                            if (task.isSuccess()) {
-                                BsonObjectId insertedId = task.get().getInsertedId().asObjectId();
-                                Log.v("EXAMPLE", "successfully inserted a document with id " + insertedId);
+                                    mongoCollection.insertOne(newDoc).getAsync(task1 -> {
+                                        if (task1.isSuccess()) {
+                                            BsonObjectId insertedId = task1.get().getInsertedId().asObjectId();
+                                            Log.v("EXAMPLE", "successfully inserted a document with id " + insertedId);
+                                            Toast toast = Toast.makeText(getApplicationContext(),
+                                                    "Account Created Now Lodged in",
+                                                    Toast.LENGTH_SHORT);
+
+                                            toast.show();
+                                        } else {
+                                            Log.e("EXAMPLE", "failed to insert document with: ", task.getError());
+                                        }
+                                    });
+
+                                }
+
+                                Log.v("EXAMPLE", "successfully found a document: " + result5);
                             } else {
-                                Log.e("EXAMPLE", "failed to insert document with: ", task.getError());
+                                Log.e("EXAMPLE", "failed to find document with: ", task.getError());
                             }
                         });
+
                     }
                 }
             }
@@ -143,7 +164,7 @@ public class Login extends AppCompatActivity {
 
                     startActivity(new Intent(getApplicationContext(), UserDashboard.class));
                     Toast toast = Toast.makeText(getApplicationContext(),
-                            "Lodged in successfully"+checkName_val+checkPassword_val,
+                            "Lodged in successfully",
                             Toast.LENGTH_SHORT);
 
                     toast.show();

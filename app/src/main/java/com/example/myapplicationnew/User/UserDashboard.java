@@ -3,12 +3,15 @@ package com.example.myapplicationnew.User;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.airbnb.lottie.L;
 import com.example.myapplicationnew.LoginSignup.Login;
@@ -40,7 +43,10 @@ public class UserDashboard extends AppCompatActivity {
     List<String> lists;
 
     TextView dldm1,dldm2,seminar1,seminar2,ptrp1,ptrp2,bhr1,bhr2,coa1,coa2,os1,os2;
+    ImageView ic;
 
+    SharedPreferences.Editor editor,editor1;
+    String val;
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,21 +109,24 @@ public class UserDashboard extends AppCompatActivity {
                             bhr1.setText(bhr[0]+"/"+bhr[1]);
                             coa1.setText(coa[0]+"/"+coa[1]);
                             os1.setText(os[0]+"/"+os[1]);
+//                            int a=Integer.parseInt(dldm[0]);
+//                            int b=Integer.parseInt(dldm[1]);
                             try {
-                                dldm2.setText(((Integer.parseInt(dldm[0])) / (Integer.parseInt(dldm[1]))) + "%");
-                                seminar2.setText(Integer.parseInt(seminar[0]) / Integer.parseInt(seminar[1]) + "%");
-                                ptrp2.setText(Integer.parseInt(ptrp[0]) / Integer.parseInt(ptrp[1]) + "%");
-                                bhr2.setText(Integer.parseInt(bhr[0]) / Integer.parseInt(bhr[1]) + "%");
-                                coa2.setText(Integer.parseInt(coa[0]) / Integer.parseInt(coa[1]) + "%");
-                                os2.setText(Integer.parseInt(os[0]) / Integer.parseInt(os[1]) + "%");
+                                dldm2.setText(String.valueOf(Integer.parseInt(dldm[0])));
+                                seminar2.setText(String.valueOf(Integer.parseInt(seminar[1]) / Integer.parseInt(seminar[0])));
+//                                ptrp2.setText(Integer.parseInt(ptrp[0]) / Integer.parseInt(ptrp[1]) + "%");
+//                                bhr2.setText(Integer.parseInt(bhr[0]) / Integer.parseInt(bhr[1]) + "%");
+//                                coa2.setText(Integer.parseInt(coa[0]) / Integer.parseInt(coa[1]) + "%");
+//                                os2.setText(Integer.parseInt(os[0]) / Integer.parseInt(os[1]) + "%");
                             }
                             catch (Exception e){
-                                dldm2.setText("0%");
+                                Log.v("exps",e.toString());
+//                                dldm2.setText("0%");
                                 seminar2.setText("0%");
-                                ptrp2.setText("0%");
-                                bhr2.setText("0%");
-                                coa2.setText("0%");
-                                os2.setText("0%");
+//                                ptrp2.setText("0%");
+//                                bhr2.setText("0%");
+//                                coa2.setText("0%");
+//                                os2.setText("0%");
                             }
 
                             Log.v("list", lists.toString());
@@ -135,13 +144,41 @@ public class UserDashboard extends AppCompatActivity {
             }
         });
 
+        ic = findViewById(R.id.plus_login);
+        isLodgedIn =getSharedPreferences("act",MODE_PRIVATE);
+        checkNameSrd = getSharedPreferences("srd1", Context.MODE_PRIVATE);
+
+        val = isLodgedIn.getString("isLodgedIn","no");
+        if (val.equals("no")) {
+            ic.setImageResource(R.drawable.ic_baseline_add_24);
+        }
+        else {
+            ic.setImageResource(R.drawable.ic_baseline_loged_out_24);
+        }
+        editor = isLodgedIn.edit();
+        editor1 = checkNameSrd.edit();
+
+
+
+
 
     }
     public void user(View view) {
-        isLodgedIn =getSharedPreferences("act",MODE_PRIVATE);
-        String val = isLodgedIn.getString("isLodgedIn","no");
-        if (!val.equals("yes")) {
+
+        if (val.equals("no")) {
             startActivity(new Intent(getApplicationContext(), Login.class));
+        }
+        else {
+            editor.putString("isLodgedIn","no");
+            editor.apply();
+            editor1.putString("Name","no");
+            editor1.apply();
+            startActivity(new Intent(getApplicationContext(), UserDashboard.class));
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "Lodged Out successfully",
+                    Toast.LENGTH_SHORT);
+
+            toast.show();
         }
     }
 }
