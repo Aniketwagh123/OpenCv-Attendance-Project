@@ -47,7 +47,7 @@ public class UserDashboard extends AppCompatActivity {
 
     SharedPreferences.Editor editor,editor1;
     String val;
-    @SuppressLint("SetTextI18n")
+    @SuppressLint({"SetTextI18n", "DefaultLocale"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -109,24 +109,23 @@ public class UserDashboard extends AppCompatActivity {
                             bhr1.setText(bhr[0]+"/"+bhr[1]);
                             coa1.setText(coa[0]+"/"+coa[1]);
                             os1.setText(os[0]+"/"+os[1]);
-//                            int a=Integer.parseInt(dldm[0]);
-//                            int b=Integer.parseInt(dldm[1]);
+//
                             try {
-                                dldm2.setText(String.valueOf(Integer.parseInt(dldm[0])));
-                                seminar2.setText(String.valueOf(Integer.parseInt(seminar[1]) / Integer.parseInt(seminar[0])));
-//                                ptrp2.setText(Integer.parseInt(ptrp[0]) / Integer.parseInt(ptrp[1]) + "%");
-//                                bhr2.setText(Integer.parseInt(bhr[0]) / Integer.parseInt(bhr[1]) + "%");
-//                                coa2.setText(Integer.parseInt(coa[0]) / Integer.parseInt(coa[1]) + "%");
-//                                os2.setText(Integer.parseInt(os[0]) / Integer.parseInt(os[1]) + "%");
+                                dldm2.setText(String.format("%.2f", Float.parseFloat(dldm[0]) / Float.parseFloat(dldm[1]) * 100)+"%");
+                                seminar2.setText(String.format("%.2f", Float.parseFloat(seminar[0]) / Float.parseFloat(seminar[1]) * 100)+"%");
+                                ptrp2.setText(String.format("%.2f", Float.parseFloat(ptrp[0]) / Float.parseFloat(ptrp[1]) * 100)+"%");
+                                bhr2.setText(String.format("%.2f", Float.parseFloat(bhr[0]) / Float.parseFloat(bhr[1]) * 100)+"%");
+                                coa2.setText(String.format("%.2f", Float.parseFloat(coa[0]) / Float.parseFloat(coa[1]) * 100)+"%");
+                                os2.setText(String.format("%.2f", Float.parseFloat(os[0]) / Float.parseFloat(os[1]) * 100)+"%");
+//
                             }
                             catch (Exception e){
-                                Log.v("exps",e.toString());
-//                                dldm2.setText("0%");
+                                dldm2.setText("0%");
                                 seminar2.setText("0%");
-//                                ptrp2.setText("0%");
-//                                bhr2.setText("0%");
-//                                coa2.setText("0%");
-//                                os2.setText("0%");
+                                ptrp2.setText("0%");
+                                bhr2.setText("0%");
+                                coa2.setText("0%");
+                                os2.setText("0%");
                             }
 
                             Log.v("list", lists.toString());
