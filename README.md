@@ -10,7 +10,7 @@ Android App
 
 ### Python Software:
 - [github repository Link!!]()
-![splash screen](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
+- [<img align="left" alt="Linkedin" width="1440px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
 
 
 ### Android App:
