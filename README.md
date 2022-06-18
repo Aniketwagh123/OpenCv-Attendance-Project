@@ -1,15 +1,18 @@
 # OpenCv-Attendance-Project-Andriod-App-
 
 ## Working : 
-webcam automatically detect a face of student with the help of OpenCv and update the database(Mongodb) dynamically by searching the quarry of student name and password in database and seeing which lecture is going on according to time-table of class and division of that student.<br />Then student can login by their username and password and see their attendance stats
+
+webcam automatically detect a face of student with the help of OpenCv and update the database(Mongodb) dynamically by searching the quarry of student name and password in database and seeing which lecture is going on according to time-table of class and division of that student.<br />Then student can login in android app by their username and password and see their attendance stats
 
 
 ### These project has two parts :
-Python Software 
+
+Python Software <br />
 Android App 
 
 ### Python Software:
-- [github repository Link!!]()
+
+- [github repository for python Software!!]()
 
 ### Android App:
 
@@ -56,6 +59,7 @@ These is a dashboard of student Attendance application<br />
 [<img align="center" alt="create account screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg" style="padding:10px;" />](https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg)
 
 <br />
+
 ## I'm a Student and Developer!!
 
 - 🔭 Check out my Coadchef Profile: [contact!](https://www.codechef.com/users/tigercoder_7)
