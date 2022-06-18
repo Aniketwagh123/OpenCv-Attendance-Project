@@ -13,10 +13,10 @@ Android App
 
 ### Android App:
 
-- 😻 This is the Angroid app Which featch the data from mongodb with the help of Realm And Show the Stats
+- 😻 This is the Angroid app Which featch the data from mongodb with the help of Realm And Show the Stats.
 #### Flash Screen : 
 
-These screen shows when user click on app icon for some miliseconds
+These screen shows when user click on app icon for some miliseconds.
 
 [<img align="center" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
 <br />
@@ -24,7 +24,7 @@ These screen shows when user click on app icon for some miliseconds
 <br />
 #### Onboarding Screen: 
 
-These screen shows for the frist time when user install the app and frist time open it
+These screen shows for the frist time when user install the app and frist time open it.
 
 [<img align="left" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg)
 
@@ -40,10 +40,10 @@ These screen shows for the frist time when user install the app and frist time o
 
 These is a dashboard of student Attendance application
 
-If student dosent logged in &nbsp; If Student logged in
+If student dosent logged in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If Student logged in
 
 [<img align="left" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg" style="padding-right:10px;" />]([https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg](https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg))
-&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img align="center" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg)
 <br />
 <br />
