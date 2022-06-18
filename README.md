@@ -29,7 +29,7 @@ This is the Angroid app Which featch the data from mongodb with the help of Real
 
 ### Connect with me:
 
-[<img align="left" alt="Linkedin" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />](https://www.linkedin.com/in/aniket-wagh-033022205/)
+[<img align="left" alt="Linkedin" width="26px" src="https://pics.freeicons.io/uploads/icons/png/16090541531530099327-512.png" style="padding-right:10px;" />](https://www.linkedin.com/in/aniket-wagh-033022205/)
 [<img align="left" alt="Codechef" width="26px" src="https://img.icons8.com/fluency/344/codechef.png" style="padding-right:10px;" />](https://www.codechef.com/users/tigercoder_7)
 
 <br />
@@ -59,19 +59,7 @@ This is the Angroid app Which featch the data from mongodb with the help of Real
 
 ---
 
-### 📺 Latest YouTube Videos
 
-<!-- YOUTUBE:START -->
-- [Withdraw Funds from ANY NFT Contract!!](https://www.youtube.com/watch?v=v-udnslmqIE)
-- [The Edge is the Future! What are Edge Functions? Exploring Netlify Edge Functions](https://www.youtube.com/watch?v=mQwWWxYd-SY)
-- [Fastest Upgrade to React 18!! Only 1 Second! 🤯](https://www.youtube.com/watch?v=JLyVyURIWG0)
-- [5 Reasons You Should NOT Create an NFT Collection!!](https://www.youtube.com/watch?v=1ktrrwasouc)
-- [Do You Need To Know Web Dev To Become A Web3 Developer? With Hashlips](https://www.youtube.com/watch?v=oQBRZMo0e34)
-<!-- YOUTUBE:END -->
-
-➡️ [more videos...](https://youtube.com/codestackr)
-
----
 
 ### 📕 Latest Blog Posts
 
