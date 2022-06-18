@@ -10,12 +10,14 @@ Android App
 
 ### Python Software:
 - [github repository Link!!]()
-- [<img align="left" alt="Linkedin" width="1440px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
-
 
 ### Android App:
 
 - 😻 This is the Angroid app Which featch the data from mongodb with the help of Realm And Show the Stats
+
+- [<img align="left" alt="Linkedin" width="440px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
+
+
 
 #### Flash Screen : 
 
