@@ -25,7 +25,7 @@ These screen shows when user click on app icon for some miliseconds.
 #### Onboarding Screen: 
 
 These screen shows for the frist time when user install the app and frist time open it.
-<br />
+
 [<img align="left" alt="Onboarding Screen 1" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg)
 
 [<img align="left" alt="Onboarding Screen 2" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421775-4f6c1588-abb2-42d3-8c01-d10735f2eea7.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421775-4f6c1588-abb2-42d3-8c01-d10735f2eea7.jpeg)
@@ -39,6 +39,7 @@ These screen shows for the frist time when user install the app and frist time o
 #### Dashboard Screen: 
 
 These is a dashboard of student Attendance application
+<br />
 -If student dosent logged in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -If Student logged in
 [<img align="left" alt="dashboard if not logged in" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg" style="padding-right:10px;" />]([https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg](https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg))
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
