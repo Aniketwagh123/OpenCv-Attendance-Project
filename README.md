@@ -54,12 +54,11 @@ These is a dashboard of student Attendance application<br />
 
 <br />
 <br />
-<br />
+
 #### Create account Screen: 
 
 [<img align="center" alt="create account screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg)
 
-<br />
 <br />
 <br />
 
