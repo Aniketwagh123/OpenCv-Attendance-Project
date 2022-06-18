@@ -17,11 +17,8 @@ Android App:
 
 This is the Angroid app Which featch the data from mongodb with the help of Realm And Show the Stats
 
-# Hi there, I'm Jesse - aka [codeSTACKr][youtube] 👋 
 
-
-
-## I'm a Husband, Father, Developer, and Teacher!!
+## I'm a Student and Developer!!
 
 - 🔭 Check out my Coadchef Profile: [contact!](https://www.codechef.com/users/tigercoder_7)
 - 🌱 I’m currently learning everything 🤣
@@ -35,17 +32,9 @@ This is the Angroid app Which featch the data from mongodb with the help of Real
 [![website]()[<img align="left" alt="MongoDB" width="26px" src="https://img.icons8.com/fluency/344/linkedin.png" style="padding-right:10px;" />](https://www.linkedin.com/in/aniket-wagh-033022205/)
 [![website](./img/globe-dark.svg)](https://codestackr.com#gh-dark-mode-only)
 &nbsp;&nbsp;
-[![website](./img/youtube-light.svg)](https://youtube.com/codestackr#gh-light-mode-only)
-[![website](./img/youtube-dark.svg)](https://youtube.com/codestackr#gh-dark-mode-only)
+[![website]()[<img align="left" alt="MongoDB" width="26px" src="https://img.icons8.com/fluency/344/linkedin.png" style="padding-right:10px;" />](https://www.linkedin.com/in/aniket-wagh-033022205/)
+[![website](./img/globe-dark.svg)](https://codestackr.com#gh-dark-mode-only)
 &nbsp;&nbsp;
-[![website](./img/twitter-light.svg)](https://twitter.com/codestackr#gh-light-mode-only)
-[![website](./img/twitter-dark.svg)](https://twitter.com/codestackr#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/linkedin-light.svg)](https://linkedin.com/in/codeSTACKr#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/codeSTACKr#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/instagram-light.svg)](https://instagram.com/codeSTACKr#gh-light-mode-only)
-[![website](./img/instagram-dark.svg)](https://instagram.com/codeSTACKr#gh-dark-mode-only)
 
 ### Languages and Tools:
 
