@@ -21,7 +21,6 @@ These screen shows when user click on app icon for some miliseconds.
 [<img align="center" alt="Flash Screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
 <br />
 <br />
-<br />
 #### Onboarding Screen: 
 
 These screen shows for the frist time when user install the app and frist time open it.
@@ -35,7 +34,6 @@ These screen shows for the frist time when user install the app and frist time o
 [<img align="center" alt="Onboarding Screen 4" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421781-577aa5a6-48b8-4728-b831-75cb2f619e8b.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421781-577aa5a6-48b8-4728-b831-75cb2f619e8b.jpeg)
 <br />
 <br />
-<br />
 #### Dashboard Screen: 
 
 These is a dashboard of student Attendance application<br />
@@ -47,21 +45,16 @@ These is a dashboard of student Attendance application<br />
 [<img align="center" alt="dashboard if logged in" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg)
 <br />
 <br />
-<br />
 #### Login Screen: 
 
 [<img align="center" alt="login screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422901-15df9349-ef93-444e-a126-bb270c943cf2.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422901-15df9349-ef93-444e-a126-bb270c943cf2.jpeg)
 
 <br />
-<br />
-
 #### Create account Screen: 
 
 [<img align="center" alt="create account screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg)
 
 <br />
-<br />
-
 ## I'm a Student and Developer!!
 
 - 🔭 Check out my Coadchef Profile: [contact!](https://www.codechef.com/users/tigercoder_7)
