@@ -50,6 +50,7 @@ These is a dashboard of student Attendance application<br />
 [<img align="center" alt="login screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422901-15df9349-ef93-444e-a126-bb270c943cf2.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422901-15df9349-ef93-444e-a126-bb270c943cf2.jpeg)
 
 <br />
+
 #### Create account Screen: 
 
 [<img align="center" alt="create account screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg)
