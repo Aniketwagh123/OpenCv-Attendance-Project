@@ -39,10 +39,10 @@ This is the Angroid app Which featch the data from mongodb with the help of Real
 ### Languages and Tools:
 
 
-[<img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />]()
-[<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />]()
-[<img align="left" alt="Android" width="26px" src="https://img.icons8.com/color/344/android-studio--v3.png" style="padding-right:10px;" />]()
-[<img align="left" alt="Android" width="26px" src="https://img.icons8.com/color/344/android-studio--v3.png" style="padding-right:10px;" />]()
+[<img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />]
+[<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />]
+[<img align="left" alt="Android" width="26px" src="https://img.icons8.com/color/344/android-studio--v3.png" style="padding-right:10px;" />]
+[<img align="left" alt="Android" width="26px" src="https://img.icons8.com/color/344/android-studio--v3.png" style="padding-right:10px;" />]
 
 
 
