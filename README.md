@@ -14,17 +14,15 @@ Android App
 ### Android App:
 
 - 😻 This is the Angroid app Which featch the data from mongodb with the help of Realm And Show the Stats
+#### Flash Screen : 
 
+These screen shows when user click on app icon for some miliseconds
 
 [<img align="center" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
 <br />
 <br />
 <br />
 
-
-#### Flash Screen : 
-
-These screen shows when user click on app icon for some miliseconds
 
 
 
