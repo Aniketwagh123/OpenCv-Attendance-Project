@@ -18,7 +18,7 @@ Android App
 
 These screen shows when user click on app icon for some miliseconds.
 
-[<img align="center" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
+[<img align="center" alt="Flash Screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421234-61b266b1-389d-4b1c-a40e-ea15b63fd14c.jpeg)
 <br />
 <br />
 <br />
@@ -26,13 +26,13 @@ These screen shows when user click on app icon for some miliseconds.
 
 These screen shows for the frist time when user install the app and frist time open it.
 
-[<img align="left" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg)
+[<img align="left" alt="Onboarding Screen 1" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421769-87ad08c6-943c-4c58-85a4-4a3b3821fa7f.jpeg)
 
-[<img align="left" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421775-4f6c1588-abb2-42d3-8c01-d10735f2eea7.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421775-4f6c1588-abb2-42d3-8c01-d10735f2eea7.jpeg)
+[<img align="left" alt="Onboarding Screen 2" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421775-4f6c1588-abb2-42d3-8c01-d10735f2eea7.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421775-4f6c1588-abb2-42d3-8c01-d10735f2eea7.jpeg)
 
-[<img align="left" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg)
+[<img align="left" alt="Onboarding Screen 3" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg)
 
-[<img align="center" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421781-577aa5a6-48b8-4728-b831-75cb2f619e8b.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421781-577aa5a6-48b8-4728-b831-75cb2f619e8b.jpeg)
+[<img align="center" alt="Onboarding Screen 4" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174421781-577aa5a6-48b8-4728-b831-75cb2f619e8b.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174421781-577aa5a6-48b8-4728-b831-75cb2f619e8b.jpeg)
 <br />
 <br />
 <br />
@@ -42,13 +42,28 @@ These is a dashboard of student Attendance application
 
 -If student dosent logged in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -If Student logged in
 
-[<img align="left" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg" style="padding-right:10px;" />]([https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg](https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg))
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[<img align="center" alt="Linkedin" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg)
-<br />
-<br />
-<br />
+[<img align="left" alt="dashboard if not logged in" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg" style="padding-right:10px;" />]([https://user-images.githubusercontent.com/106876220/174421776-ec2d1485-e6c7-4dd7-a2e9-8cb78c7aabea.jpeg](https://user-images.githubusercontent.com/106876220/174422355-3517f85c-38b8-4222-8188-da0dc5df86be.jpeg))
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+[<img align="center" alt="dashboard if logged in" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422407-ebc206ee-5c47-4bcd-b872-d73181169229.jpeg)
+<br />
+<br />
+<br />
+#### Login Screen: 
+
+[<img align="center" alt="login screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422901-15df9349-ef93-444e-a126-bb270c943cf2.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422901-15df9349-ef93-444e-a126-bb270c943cf2.jpeg)
+
+<br />
+<br />
+<br />
+#### Create account Screen: 
+
+[<img align="center" alt="create account screen" width="212px" height="432px" src="https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg" style="padding-right:10px;" />](https://user-images.githubusercontent.com/106876220/174422906-59f32e97-c20b-4d42-a03d-ed550d3ec945.jpeg)
+
+<br />
+<br />
+<br />
 
 ## I'm a Student and Developer!!
 
