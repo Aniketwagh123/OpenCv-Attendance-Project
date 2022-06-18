@@ -32,7 +32,7 @@ This is the Angroid app Which featch the data from mongodb with the help of Real
 
 ### Connect with me:
 
-[![website]()[<img align="left" alt="MongoDB" width="26px" src="https://img.icons8.com/fluency/344/linkedin.png" style="padding-right:10px;" />][webdevplaylist]](https://codestackr.com#gh-light-mode-only)
+[![website]()[<img align="left" alt="MongoDB" width="26px" src="https://img.icons8.com/fluency/344/linkedin.png" style="padding-right:10px;" />][webdevplaylist]]([https://codestackr.com#gh-light-mode-only](https://www.linkedin.com/in/aniket-wagh-033022205/))
 [![website](./img/globe-dark.svg)](https://codestackr.com#gh-dark-mode-only)
 &nbsp;&nbsp;
 [![website](./img/youtube-light.svg)](https://youtube.com/codestackr#gh-light-mode-only)
