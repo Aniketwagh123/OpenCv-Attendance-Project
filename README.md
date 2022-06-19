@@ -12,7 +12,7 @@ Android App
 
 ### Python Software:
 
-- [github repository for python Software!!]()
+- [github repository for python Software!!](https://github.com/Aniketwagh123/OpenCv-Attendance-Project-Python-software)
 
 ### Android App:
 
@@ -62,7 +62,7 @@ These is a dashboard of student Attendance application<br />
 
 ## I'm a Student and Developer!!
 
-- 🔭 Check out my Coadchef Profile: [contact!](https://www.codechef.com/users/tigercoder_7)
+- 🔭 Check out my Coadchef Profile: [Click here to Check out!](https://www.codechef.com/users/tigercoder_7)
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other Android App developer And AI ML experts
 - 🥅 2022 Goals: Learn more about AI and App Development
